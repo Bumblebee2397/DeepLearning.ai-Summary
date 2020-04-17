@@ -62,7 +62,7 @@ Here are the course summary as its given on the course [link](https://www.course
 > This course also teaches you how Deep Learning actually works, rather than presenting only a cursory or surface-level description. So after completing it, you will be able to apply deep learning to a your own applications. If you are looking for a job in AI, after this course you will also be able to answer basic interview questions.
 
 
-## Introduction to deep learning
+## Week 1 - Introduction to deep learning
 
 > Be able to explain the major trends driving the rise of deep learning, and understand where and how it is applied today.
 
@@ -121,7 +121,7 @@ Here are the course summary as its given on the course [link](https://www.course
 
   ​
 
-## Neural Networks Basics
+## Week 2 - Neural Networks Basics
 
 > Learn to set up a machine learning problem with a neural network mindset. Learn to use vectorization to speed up your models.
 
@@ -346,7 +346,7 @@ Here are the course summary as its given on the course [link](https://www.course
 - [Pieter Abbeel](https://www2.eecs.berkeley.edu/Faculty/Homepages/abbeel.html) is one of the best in deep reinforcement learning.
 
 
-## Shallow neural networks
+## Week 3 - Shallow neural networks
 
 > Learn to build a neural network with one hidden layer, using forward propagation and backpropagation.
 
@@ -562,7 +562,7 @@ Here are the course summary as its given on the course [link](https://www.course
 
 - Constant 0.01 is alright for 1 hidden layer networks, but if the NN is deep this number can be changed but it will always be a small number.
 
-## Deep Neural Networks
+## Week 4 - Deep Neural Networks
 
 > Understand the key computations underlying deep learning, use them to build and train deep neural networks, and apply it to computer vision.
 
