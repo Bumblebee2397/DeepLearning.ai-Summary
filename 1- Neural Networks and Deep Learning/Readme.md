@@ -62,7 +62,6 @@ Here are the course summary as its given on the course [link](https://www.course
 > This course also teaches you how Deep Learning actually works, rather than presenting only a cursory or surface-level description. So after completing it, you will be able to apply deep learning to a your own applications. If you are looking for a job in AI, after this course you will also be able to answer basic interview questions.
 
 
-
 ## Introduction to deep learning
 
 > Be able to explain the major trends driving the rise of deep learning, and understand where and how it is applied today.
@@ -117,7 +116,7 @@ Here are the course summary as its given on the course [link](https://www.course
      - Distributed computing.
      - ASICs
   3. Algorithmic Innovation and Improvement:
-     1. Creative algorithms has appeared that changed the way NN works.
+     1. Creative algorithms have appeared that have changed the way NN works.
         - For example using RELU function is so much better than using SIGMOID function in training a NN because it helps with the vanishing gradient problem.
 
   ​
