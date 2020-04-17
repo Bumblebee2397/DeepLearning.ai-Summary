@@ -132,15 +132,15 @@ Here are the course summary as its given on the course [link](https://www.course
   - Image taken from [3.bp.blogspot.com](http://3.bp.blogspot.com)
 - He talked about an example of knowing if the current image contains a cat or not.
 - Here are some notations:
-  - `M is the number of training vectors`
-  - `Nx is the size of the input vector`
+  - `M is the number of training examples in the training set`
+  - `Nx is the size(dimensions) of the input vector`
   - `Ny is the size of the output vector`
   - `X(1) is the first input vector`
   - `Y(1) is the first output vector`
   - `X = [x(1) x(2).. x(M)]`
   - `Y = (y(1) y(2).. y(M))`
 - We will use python in this course.
-- In NumPy we can make matrices and make operations on them in a fast and reliable time.
+- In NumPy we can make matrices and make operations on them in a fast and reliable way.
 
 ### Logistic regression
 
