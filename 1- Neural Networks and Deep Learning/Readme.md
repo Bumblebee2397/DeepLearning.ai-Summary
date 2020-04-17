@@ -159,7 +159,7 @@ Here are the course summary as its given on the course [link](https://www.course
 - First LOSS FUNCTION would be the square root error:  `L(y',y) = 1/2 (y' - y)^2`
   - But we won't use this notation because it leads us to optimization problem which is non convex, means it contains local optimum points.
 - This is the function that we will use: `L(y',y) = - (y*log(y') + (1-y)*log(1-y'))`
--NOTE that we decide a LOSS FUNCTION based on the fact that it should cough up a large value incase of mispredictions and a small value tending to zero incase of correct predictions. 
+- NOTE that we decide a LOSS FUNCTION based on the fact that it should cough up a large value incase of mispredictions and a small value tending to zero incase of correct predictions. 
 - To explain the last LOSS FUNCTION chosen for LOGISTIC REGRESSION we have:
   - if `y = 1` ==> `L(y',1) = -log(y')`  ==> we want `y'` to be the largest   ==> Hence `y`' should have the biggest possible value i.e 1
   - if `y = 0` ==> `L(y',0) = -log(1-y')` ==> we want `1-y'` to be the largest ==> `y'` to be as small as possible because it can only has 1 value.
