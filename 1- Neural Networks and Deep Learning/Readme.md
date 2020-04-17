@@ -102,21 +102,21 @@ Here are the course summary as its given on the course [link](https://www.course
 ### Why is deep learning taking off?
 
 - Deep learning is taking off for 3 reasons:
-  1. Data:
+  1. Big data:
      - Using this image we can conclude:
        - ![](Images/11.png)
-     - For small data NN can perform as Linear regression or SVM (Support vector machine)
-     - For big data a small NN is better that SVM
-     - For big data a big NN is better that a medium NN is better that small NN.
-     - Hopefully we have a lot of data because the world is using the computer a little bit more
+     - For small data, NN has similar performance when compared to Linear regression or SVM (Support vector machine).
+     - For big data a small NN is better that SVM.
+     - For big data a big NN is better that a medium NN is obviously better than a small NN.
+     - Hopefully we have a lot of data because the world now is massively connected to a number of devices which is continously generating data.
        - Mobiles
        - IOT (Internet of things)
-  2. Computation:
+  2. Computation power:
      - GPUs.
      - Powerful CPUs.
      - Distributed computing.
      - ASICs
-  3. Algorithm:
+  3. Algorithmic Innovation and Improvement:
      1. Creative algorithms has appeared that changed the way NN works.
         - For example using RELU function is so much better than using SIGMOID function in training a NN because it helps with the vanishing gradient problem.
 
