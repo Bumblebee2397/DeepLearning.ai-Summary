@@ -156,22 +156,23 @@ Here are the course summary as its given on the course [link](https://www.course
 
 ### Logistic regression cost function
 
-- First loss function would be the square root error:  `L(y',y) = 1/2 (y' - y)^2`
+- First LOSS FUNCTION would be the square root error:  `L(y',y) = 1/2 (y' - y)^2`
   - But we won't use this notation because it leads us to optimization problem which is non convex, means it contains local optimum points.
 - This is the function that we will use: `L(y',y) = - (y*log(y') + (1-y)*log(1-y'))`
-- To explain the last function lets see:
-  - if `y = 1` ==> `L(y',1) = -log(y')`  ==> we want `y'` to be the largest   ==> `y`' biggest value is 1
-  - if `y = 0` ==> `L(y',0) = -log(1-y')` ==> we want `1-y'` to be the largest ==> `y'` to be smaller as possible because it can only has 1 value.
-- Then the Cost function will be: `J(w,b) = (1/m) * Sum(L(y'[i],y[i]))`
+-NOTE that we decide a LOSS FUNCTION based on the fact that it should cough up a large value incase of mispredictions and a small value tending to zero incase of correct predictions. 
+- To explain the last LOSS FUNCTION chosen for LOGISTIC REGRESSION we have:
+  - if `y = 1` ==> `L(y',1) = -log(y')`  ==> we want `y'` to be the largest   ==> Hence `y`' should have the biggest possible value i.e 1
+  - if `y = 0` ==> `L(y',0) = -log(1-y')` ==> we want `1-y'` to be the largest ==> `y'` to be as small as possible because it can only has 1 value.
+- Then the COST FUNCTION will be: `J(w,b) = (1/m) * Sum(L(y'[i],y[i]))`
 - The loss function computes the error for a single training example; the cost function is the average of the loss functions of the entire training set.
 
 ### Gradient Descent
 
 - We want to predict `w` and `b` that minimize the cost function.
-- Our cost function is convex.
-- First we initialize `w` and `b` to 0,0 or initialize them to a random value in the convex function and then try to improve the values the reach minimum value.
-- In Logistic regression people always use 0,0 instead of random.
-- The gradient decent algorithm repeats: `w = w - alpha * dw`
+- Our cost function derived for logistic regression is convex.
+- First we initialize `w` and `b` to (zero,zero) or initialize them to a random value and then nudge their values in order to reach the minimum value of the COST FUNCTION.
+- In Logistic regression people always use (zero,zero) instead of random.
+- The gradient decent algorithm is: repeat(`w = w - alpha * dw`)
   where alpha is the learning rate and `dw` is the derivative of `w` (Change to `w`)
   The derivative is also the slope of `w`
 - Looks like greedy algorithms. the derivative give us the direction to improve our parameters.
