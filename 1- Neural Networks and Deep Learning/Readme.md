@@ -128,6 +128,7 @@ Here are the course summary as its given on the course [link](https://www.course
 ### Binary classification
 
 - Mainly he is talking about how to do a logistic regression to make a binary classifier.
+  - ![](Images/Binary classification.jpg)
   - ![log](Images/Others/03.png)
   - Image taken from [3.bp.blogspot.com](http://3.bp.blogspot.com)
 - He talked about an example of knowing if the current image contains a cat or not.
