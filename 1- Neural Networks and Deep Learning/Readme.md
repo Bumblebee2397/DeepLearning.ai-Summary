@@ -357,7 +357,7 @@ Here are the course summary as its given on the course [link](https://www.course
 
   ```
   X1  \  
-  X2   ==>  z = XW + B ==> a = Sigmoid(z) ==> l(a,Y)
+  X2   ==>  z = W(T)X + B ==> a = Sigmoid(z) ==> l(a,Y) where a = Yhat
   X3  /
   ```
 
@@ -371,16 +371,16 @@ Here are the course summary as its given on the course [link](https://www.course
 
 
 - `X` is the input vector `(X1, X2, X3)`, and `Y` is the output variable `(1x1)`
-- NN is stack of logistic regression objects.
+- NN is stack of logistic regression units.
 
 ### Neural Network Representation
 
 - We will define the neural networks that has one hidden layer.
-- NN contains of input layers, hidden layers, output layers.
-- Hidden layer means we cant see that layers in the training set.
-- `a0 = x` (the input layer)
-- `a1` will represent the activation of the hidden neurons.
-- `a2` will represent the output layer.
+- NN contains an input layer, hidden layers, and an output layer.
+- Since, the labelled training set only has absolute values of the input layer and the output layer, we call the layers in the middle HIDDEN layers.
+- `a^[0] = X` (X which is the input layer can also be denoted by a[0])
+- `a^[1]` will represent the activation layer of the hidden neurons.
+- `a^[2]` will represent the output layer.
 - We are talking about 2 layers NN. The input layer isn't counted.
 
 ### Computing a Neural Network's Output
